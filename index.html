@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <style>
+      .wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 90%;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #ffffff;
+  background-image:url(whitetwitter.png) ;
+  color: #0e87eb;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F ;
+  color: #fff;
+}
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover:hover .tooltip,
+.wrapper .whatsapp:hover:hover .tooltip::before {
+  background: #0B964A;
+  color: #fff;
+  
+}
+     
+      #facebook{
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+        
+
+      }
+      #twitter{
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        /* width: 50%; */
+        
+
+      }
+      
+        h1{
+           
+            font-family: "Trirong", serif;
+            text-align: center;
+        }
+        .title{
+            margin-top: 24px;
+        }
+        .card-body{
+          
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgb(47, 71, 92);
+        }
+        
+        .card {
+          border-radius: 30px;
+          margin-top: 4%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-radius: 70px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  35px 35px 58px #808080,
+             -35px -35px 58px #ffffff;
+ 
+        }
+        .card-body {
+          width: 100%;
+        height: 60.8px;
+        }
+        .card-text{
+            font-size: 19px;
+            text-decoration: none;
+            font-family: "Trirong", serif;
+            color: rgb(214, 206, 210);
+        }
+        h1{
+          display: none;
+        }
+        @media only screen and (min-width: 580px) {
+       .card{
+        display: none;
+       } 
+       .card-body{
+        display: none;
+       }
+       img{
+        display: none;
+       }
+        .wrapper{
+          display: none;
+        }
+        .animation{
+        height: 300px;
+          background-color: #0B964A;
+          background-image: url(error.jpg);
+        }
+        }
+
+        
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abiral Shrestha</title>
+    <link rel="icon" type="image/x-icon" href="w.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+  
+    <h1 class="title"><strong>Sorry for interruption</strong>  This is only for mobile Version</h1>
+    <div class="desktop">
+    <div class="card" style="width: 89%; border-radius: 30px;">
+        <img src="profile.jpg" class="card-img-top" alt="This is my Profile" class="center" style="border-radius: 50%;width: 60%; align-content: center;margin-left: 80px;" >
+        <div class="card-body">
+         
+          <a class="card-text" data-period="2000" data-type='[" Hi, I am Abiral Shrestha .... ","Join with me on Facebook ..","Follow me on Twitter ..","Connect with me on Instagram ..","Contact on Whatsapp .."]'>
+            <span class="wrap"></span>
+            
+        </a>
+        </div>
+        <ul class="wrapper">
+          <li class="icon facebook"><a href="https://www.facebook.com/shrestha.abiral.0 " target="_blank" style="text-decoration: none; color: #ffffff;"><img src="fb.png"></a>
+              <span class="tooltip"><a href="https://www.facebook.com/shrestha.abiral.0" style="text-decoration: none; color: #ffffff;">Facebook</a></span>
+              <span><i class="fab fa-facebook-f"></i></span>
+          </li>
+          <li class="icon twitter"><a href="https://twitter.com/AbiralS70474971" target="_blank"style="text-decoration: none; "><img src="twitter.png"></a>
+              <span class="tooltip"><a href="https://twitter.com/AbiralS70474971" style="text-decoration: none; ">Twitter</a></span>
+              <span><i class="fab fa-twitter"></i></span>
+          </li>
+          <li class="icon instagram"><a href="https://www.instagram.com/shrestha.abiral.0/" target="_blank" style="text-decoration: none; color: #ffffff;"><img src="instagram.png"></a>
+              <span class="tooltip"><a href="https://www.instagram.com/shrestha.abiral.0/" style="text-decoration: none; color: #ffffff;">Instagram</a></span>
+              <span><i class="fab fa-instagram"></i></span>
+          </li>
+          <li class="icon whatsapp"><a href="https://api.whatsapp.com/qr/MEODLEOZ26J4I1?autoload=1&app_absent=0" target="_blank" style="text-decoration: none; color: #ffffff;"><img src="whatsapp.png"></a>
+              <span class="tooltip"><a href="https://api.whatsapp.com/qr/MEODLEOZ26J4I1?autoload=1&app_absent=0" style="text-decoration: none; color: #ffffff;">Whatsapp</a></span>
+              <span><i class="fab fa-instagram"></i></span>
+          </li>
+          <li class="icon whatsapp"><a href="https://www.google.com/maps/place/The+Namaste+Furniture+%26+Home+Decor/@27.6120725,84.5709083,17z/data=!3m1!4b1!4m6!3m5!1s0x3994e9150e25efeb:0x9c77d4e901d0ab1!8m2!3d27.6120725!4d84.573097!16s%2Fg%2F11f7bj640d"  target="_blank" style="text-decoration: none; color: #ffffff;"><img src="placeholder.png" width="40px" height="40px" ></a>
+            <span class="tooltip"><a href="https://www.google.com/maps/place/The+Namaste+Furniture+%26+Home+Decor/@27.6120725,84.5709083,17z/data=!3m1!4b1!4m6!3m5!1s0x3994e9150e25efeb:0x9c77d4e901d0ab1!8m2!3d27.6120725!4d84.573097!16s%2Fg%2F11f7bj640d" style="text-decoration: none; color: #ffffff;">Location</a></span>
+            <span><i class="fab fa-instagram"></i></span>
+        </li>
+      </ul>
+       <div class="animation">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_2glqweqs.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px; margin-left: 20%"  loop  autoplay></lottie-player>
+      </div>
+      </div>
+  </div>
+<!--       
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Facebook</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Are you sure you want to continue ? 
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://www.facebook.com/shrestha.abiral.0" style="color:antiquewhite ; text-decoration: none;" >Continue</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <button id="facebook"class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/> Facebook</button>
+</div>
+<div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-6" id="exampleModalToggleLabel">Whatsapp</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to continue ? 
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://api.whatsapp.com/qr/MEODLEOZ26J4I1?autoload=1&app_absent=0" style="color:antiquewhite ; text-decoration: none;" >Continue</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="twitter"class="btn btn-primary" style="background-color:#40C351" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/whatsapp--v1.png"/> whatsapp</button>
+  
+  <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-6" id="exampleModalToggleLabel">Instagram</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to continue ? 
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://www.instagram.com/shrestha.abiral.0/" style="color:#F7F6F5 ; text-decoration: none;" >Continue</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="twitter"class="btn btn-primary" style="background-color:#aaa2a7" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png"/> Instagram</button>
+  
+
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-6" id="exampleModalToggleLabel">Twitter</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to continue ? 
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://twitter.com/AbiralS70474971" style="color:antiquewhite ; text-decoration: none;" >Continue</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<button id="twitter"class="btn btn-primary" style="background-color:#03A9F4;width: 160px; height:50px" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/twitter-squared.png"/> Twitter </button> -->
+
+
+
+  
+</div>
+  
+  <script>
+        var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('card-text');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #ffff }";
+        document.body.appendChild(css);
+    };
+      
+      </script>
+      
+      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
