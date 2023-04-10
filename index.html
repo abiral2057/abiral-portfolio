@@ -4,12 +4,48 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     <style>
+      
+button {
+ width: auto;
+  padding: 1.5em 5em;
+  background: #efefef;
+  border: none;
+  border-radius: .5rem;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  
+  transition: .2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+              -6px -6px 10px rgba(255, 255, 255, .5),
+              6px 6px 8px rgba(255, 255, 255, .075),
+ 
+             6px 6px 10px rgba(0, 0, 0, .15);
+
+             
+}
+button:hover {
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+              -2px -2px 4px rgba(255, 255, 255, .4),
+              2px 2px 2px rgba(255, 255, 255, .05),
+              2px 2px 4px rgba(0, 0, 0, .1);
+}
+button:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+              inset -2px -2px 4px rgba(255, 255, 255, .5),
+              inset 2px 2px 2px rgba(255, 255, 255, .075),
+              inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
       .wrapper {
   display: inline-flex;
   list-style: none;
   height: 120px;
   width: 90%;
-  padding-top: 40px;
+  padding-top: 0px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
 }
@@ -97,7 +133,8 @@
   color: #fff;
   
 }
-     
+
+  
       #facebook{
         margin-top: 20px;
         display: block;
@@ -176,6 +213,9 @@ box-shadow:  35px 35px 58px #808080,
           background-color: #0B964A;
           background-image: url(error.jpg);
         }
+        button{
+          display: none;
+        }
         }
 
         
@@ -201,110 +241,43 @@ box-shadow:  35px 35px 58px #808080,
             
         </a>
         </div>
-        <ul class="wrapper">
-          <li class="icon facebook"><a href="https://www.facebook.com/shrestha.abiral.0 " target="_blank" style="text-decoration: none; color: #ffffff;"><img src="fb.png"></a>
+       
+        <ul class="wrapper" >
+                  <li class="icon facebook"><a href="https://www.facebook.com/shrestha.abiral.0 " target="_blank" style="text-decoration: none; color: #ffffff;"><img src="fb.png"></a>
               <span class="tooltip"><a href="https://www.facebook.com/shrestha.abiral.0" style="text-decoration: none; color: #ffffff;">Facebook</a></span>
-              <span><i class="fab fa-facebook-f"></i></span>
+              
           </li>
-          <li class="icon twitter"><a href="https://twitter.com/AbiralS70474971" target="_blank"style="text-decoration: none; "><img src="twitter.png"></a>
-              <span class="tooltip"><a href="https://twitter.com/AbiralS70474971" style="text-decoration: none; ">Twitter</a></span>
-              <span><i class="fab fa-twitter"></i></span>
+          <li class="icon twitter"><a href="mailto:abiral.shrestha7236@gmail.com" target="_blank"style="text-decoration: none; "><img src="gmail.png " width="40px" height="40px"></a>
+              <span class="tooltip"><a href="mailto:abiral.shrestha7236@gmail.com" style="text-decoration: none; color: #E4405F; ">Gmail</a></span>
+           
           </li>
           <li class="icon instagram"><a href="https://www.instagram.com/shrestha.abiral.0/" target="_blank" style="text-decoration: none; color: #ffffff;"><img src="instagram.png"></a>
               <span class="tooltip"><a href="https://www.instagram.com/shrestha.abiral.0/" style="text-decoration: none; color: #ffffff;">Instagram</a></span>
-              <span><i class="fab fa-instagram"></i></span>
+           
           </li>
           <li class="icon whatsapp"><a href="https://api.whatsapp.com/qr/MEODLEOZ26J4I1?autoload=1&app_absent=0" target="_blank" style="text-decoration: none; color: #ffffff;"><img src="whatsapp.png"></a>
               <span class="tooltip"><a href="https://api.whatsapp.com/qr/MEODLEOZ26J4I1?autoload=1&app_absent=0" style="text-decoration: none; color: #ffffff;">Whatsapp</a></span>
-              <span><i class="fab fa-instagram"></i></span>
+            
           </li>
           <li class="icon whatsapp"><a href="https://www.google.com/maps/place/The+Namaste+Furniture+%26+Home+Decor/@27.6120725,84.5709083,17z/data=!3m1!4b1!4m6!3m5!1s0x3994e9150e25efeb:0x9c77d4e901d0ab1!8m2!3d27.6120725!4d84.573097!16s%2Fg%2F11f7bj640d"  target="_blank" style="text-decoration: none; color: #ffffff;"><img src="placeholder.png" width="40px" height="40px" ></a>
             <span class="tooltip"><a href="https://www.google.com/maps/place/The+Namaste+Furniture+%26+Home+Decor/@27.6120725,84.5709083,17z/data=!3m1!4b1!4m6!3m5!1s0x3994e9150e25efeb:0x9c77d4e901d0ab1!8m2!3d27.6120725!4d84.573097!16s%2Fg%2F11f7bj640d" style="text-decoration: none; color: #ffffff;">Location</a></span>
-            <span><i class="fab fa-instagram"></i></span>
+            
         </li>
+        
+       
+      </li>
+      
       </ul>
+      
+      
        <div class="animation">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_2glqweqs.json"  background="transparent"  speed="0.5"  style="width: 200px; height: 200px; margin-left: 20%"  loop  autoplay></lottie-player>
+       
       </div>
       </div>
   </div>
-<!--       
-      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Facebook</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Are you sure you want to continue ? 
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://www.facebook.com/shrestha.abiral.0" style="color:antiquewhite ; text-decoration: none;" >Continue</a></button>
-            </div>
-          </div>
-        </div>
-      </div>
-    <button id="facebook"class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/facebook-new.png"/> Facebook</button>
-</div>
-<div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-6" id="exampleModalToggleLabel">Whatsapp</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Are you sure you want to continue ? 
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://api.whatsapp.com/qr/MEODLEOZ26J4I1?autoload=1&app_absent=0" style="color:antiquewhite ; text-decoration: none;" >Continue</a></button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button id="twitter"class="btn btn-primary" style="background-color:#40C351" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/whatsapp--v1.png"/> whatsapp</button>
-  
-  <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-6" id="exampleModalToggleLabel">Instagram</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Are you sure you want to continue ? 
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://www.instagram.com/shrestha.abiral.0/" style="color:#F7F6F5 ; text-decoration: none;" >Continue</a></button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button id="twitter"class="btn btn-primary" style="background-color:#aaa2a7" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png"/> Instagram</button>
-  
-
-<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-6" id="exampleModalToggleLabel">Twitter</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Are you sure you want to continue ? 
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" ><a href="https://twitter.com/AbiralS70474971" style="color:antiquewhite ; text-decoration: none;" >Continue</a></button>
-      </div>
-    </div>
-  </div>
-</div>
-<button id="twitter"class="btn btn-primary" style="background-color:#03A9F4;width: 160px; height:50px" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><img src="https://img.icons8.com/color/48/null/twitter-squared.png"/> Twitter </button> -->
-
-
-
+  <button style="margin-left: 2.4rem;"><a href="Resume-Abiral-Shrestha.pdf" style="text-decoration: none;" download>Download CV</a><i class="fa-regular fa-circle-down fa-bounce" style="color: #3d77db; padding-left: 20px;"></i></button>
   
 </div>
   
@@ -368,7 +341,7 @@ box-shadow:  35px 35px 58px #808080,
       
       </script>
       
-      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/9444d98890.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
